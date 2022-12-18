@@ -2,7 +2,7 @@ extern crate clap;
 extern crate wikipedia;
 mod args;
 
-use args::CentipedeArgs;
+use args::WikipeArgs;
 use inquire::{InquireError, Select};
 use wikipedia::{http::default::Client, Wikipedia};
 use clap::Parser;
@@ -12,7 +12,7 @@ type WikipediaClient = Wikipedia<Client>;
 
 fn main() {
     // Get Clap arguments
-    let args = CentipedeArgs::parse();
+    let args = WikipeArgs::parse();
     let query = &args.search_query;
     
     // Build the wiki client
@@ -22,7 +22,7 @@ fn main() {
     let langs = client.get_languages().expect("Failed to get languages from Wikipedia.");
 
     // Fetch user query, return page contents.
-    if let Some(res) = centipedia(query, &mut client, &langs) {
+    if let Some(res) = wikipe(query, &mut client, &langs) {
         println!("{}", res);
     }
 }
@@ -35,7 +35,7 @@ fn build_wiki_client() -> WikipediaClient {
     client
 }
 
-fn centipedia(query: &String, client: &mut WikipediaClient, langs: &[(String, String)]) -> Option<String> {
+fn wikipe(query: &String, client: &mut WikipediaClient, langs: &[(String, String)]) -> Option<String> {
     // Set the language to search Wikipedia in. Defaults to 'en'.
     let def_english = "en";
     let search_lang = get_search_language(&langs, Some(def_english))?;

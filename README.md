@@ -1,9 +1,9 @@
 <div align="center">
     <h1>Wikipe</h1>
     <p>
-        <a href="https://crates.io/crates/centipede"><img src="https://img.shields.io/crates/v/centipede?label=Version" alt="Version" /></a>
-        <a href="https://crates.io/crates/centipede"><img src="https://img.shields.io/crates/d/centipede?label=Downloads" alt="Downloads"></a>
-        <a href="https://github.com/hreynier/centipede/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?maxAge=2592000" alt="License" /></a>
+        <a href="https://crates.io/crates/wikipe"><img src="https://img.shields.io/crates/v/wikipe?label=Version" alt="Version" /></a>
+        <a href="https://crates.io/crates/wikipe"><img src="https://img.shields.io/crates/d/wikipe?label=Downloads" alt="Downloads"></a>
+        <a href="https://github.com/hreynier/wikipe/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?maxAge=2592000" alt="License" /></a>
     </p>
 </div>
 
