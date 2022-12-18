@@ -1,5 +1,5 @@
 <div align="center">
-    <img href="https://upload.wikimedia.org/wikipedia/commons/2/29/Wikipe-tan_without_body.png">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Wikipe-tan_without_body.png">
     <h1>Wikipe</h1>
     <p>
         <a href="https://crates.io/crates/wikipe"><img src="https://img.shields.io/crates/v/wikipe?label=Version" alt="Version" /></a>
