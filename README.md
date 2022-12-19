@@ -8,7 +8,7 @@
     </p>
 </div>
 
-:sparkle: Wikipe :sparkle: is a tool to search Wikipedia from the command-line. Given a search query, it returns a list of matching Wikipedia articles, which can be opened to display their contents or directly opened in a browser from the terminal. Articles can be navigated through the terminal. `wikipe` supports sequential searches within a single instance.
+:sparkles: Wikipe :sparkles: is a tool to search Wikipedia from the command-line. Given a search query, it returns a list of matching Wikipedia articles, which can be opened to display their contents or directly opened in a browser from the terminal. Articles can be navigated through the terminal. `wikipe` supports sequential searches within a single instance.
 
 ## Installation
 
@@ -35,7 +35,7 @@ $   wikipe <search_query> -l <language>
 
 Wikipe will return a list of relevant articles for that given search term, and ask you to select an article to view.
 At the moment, you can choose to view a summary of the article, or the entire article in your terminal.
-Check the [roadmap](##Roadmap) for upcoming features.
+Check the [roadmap](#roadmap) for upcoming features.
 
 ## Contributing
 This is still a WIP so if you find any bugs or have any suggestions for features or better code, please submit either an issue or a pull request ^_^
