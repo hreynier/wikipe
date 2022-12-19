@@ -1,7 +1,7 @@
 [package]
 name = "wikipe"
 version = "0.1.0"
-authors="Harvey Reynier"
+authors=["Harvey Reynier"]
 license="MIT"
 description="A simple tool to search and read Wikipedia articles in the terminal"
 readme="README.md"
