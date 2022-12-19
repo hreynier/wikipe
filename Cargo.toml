@@ -1,6 +1,14 @@
 [package]
 name = "wikipe"
 version = "0.1.0"
+authors="Harvey Reynier"
+license="MIT"
+description="A simple tool to search and read Wikipedia articles in the terminal"
+readme="README.md"
+homepage="https://github.com/hreynier/wikipe"
+repository="https://github.com/hreynier/wikipe"
+keywords=["cli", "wikipedia", "web"]
+categories=["command-line-utilities", "command-line-apps", "command-line-tools"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
